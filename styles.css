@@ -1,0 +1,752 @@
+body {
+    font-family: "EB Garamond", serif;
+}
+
+.custom-bg {
+    background-color: #3f4a08; /* couleur du background de la navbar*/
+}
+
+.navbar{
+    font-family: "EB Garamond", serif;
+}
+
+.navbar-brand img {
+    width: 150px; /* largeur du logo */
+    height: auto; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.second {
+    background-color: #7a8932;
+    color: #3f4a08;
+    margin-left: 10px; /* Ajoute un espacement entre les boutons */
+}
+
+.brand-title {
+    font-size: 48px;
+    font-family: "EB Garamond", serif;
+    color: white; /* Couleur du texte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.title-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.brand-title {
+    font-size: 150px; /* Ajustez la taille du texte */
+    color: #3f4a08;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+    .title-container {
+        top: 40%; /* Ajustez la position verticale pour les écrans plus petits */
+    }
+    
+    .brand-title {
+        font-size: 36px; /* Ajustez la taille du texte pour les écrans plus petits */
+    }
+}
+
+/*------------------------------------- partie connexion ----------------------------------*/
+/* ... vos autres styles ... */
+.connexionFond{
+    font-family: "EB Garamond", serif;
+}
+
+.containerConnexion {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding-top: 300px;
+}
+
+.login-form {
+    background-color: #3f4a08;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.accueil{
+    margin-left: -3px;
+}
+
+/*------------------------------------- page inscription ----------------------------------*/
+
+/* ... vos autres styles ... */
+
+.inscriptionFond{
+    font-family: "EB Garamond", serif;
+}
+
+.containerInscrire {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
+    padding-top: 80px;
+    font-family: "EB Garamond", serif;
+    color: white;
+    
+}
+
+.registration-form {
+    background-color: #3f4a08;
+    color: white;
+    padding: 20px;
+    border-radius: 10px; /* Coins légèrement arrondis */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Ajustez la largeur du formulaire */
+    box-sizing: border-box; /* Inclut les bordures et le padding dans la largeur */
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    margin-right: 22px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="file"],
+.form-group input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Coins légèrement arrondis */
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #379828;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #26581F;
+}
+
+.btn-retour {
+    background-color: #DB4437;
+    color: white;
+}
+
+.btn-google:hover {
+    background-color: #C32F27;
+}
+
+.accueil2{
+    margin-left: 75px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.btn-popup-close {
+    margin-top: 10px;
+}
+/*------------------------------------- page profile --------------------------------------*/
+
+/* ... vos autres styles ... */
+
+.containerProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    font-family: "EB Garamond", serif;
+}
+
+.profile-box {
+    background-color: #3f4a08;
+    color: white;
+    padding: 20px;
+    border-radius: 10px; /* Coins légèrement arrondis */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    margin-top: 50px;
+}
+
+.profile-icon {
+    font-size: 120px;
+    color: #aaa;
+    margin: 0 auto;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-info h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    margin: 0;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #379828;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #26581F;
+}
+
+.btn-edit-profile {
+    margin-top: 10px;
+}
+
+/*------------------------------------- page contact --------------------------------------*/
+
+/* ... vos autres styles ... */
+
+.containerContact {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    font-family: "EB Garamond", serif;
+}
+
+.contact-section, .donation-section {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.divider {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.contact-form, .donation-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.contact-form textarea,
+.donation-form textarea,
+.donation-form .file-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.btn-send {
+    background-color: #379828;
+    color: white;
+}
+
+.btn-send:hover {
+    background-color: #26581F;
+}
+
+/*------------------------------------- a propos de nous ----------------------------------*/
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.titrePropos{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "EB Garamond", serif;
+}
+.paire{
+    margin-bottom: 30px;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  position: relative;
+  z-index: 10;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 100px;
+  font-family: "EB Garamond", serif;
+}
+
+.titreEquipe{
+    text-align: center;
+    color: white;
+    font-family: "EB Garamond", serif;
+    position: relative;
+    z-index: 10;
+    margin-top: 30px;
+}
+.proposRow{
+    padding-left: 500px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/*------------------------------------- collections ---------------------------------------*/
+
+.containerCollection{
+    font-family: "EB Garamond", serif;
+    margin-left: 600px;
+}
+
+.titreCollection{
+    position: relative;
+    z-index: 10;
+    color: white;
+    margin-right: 650px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*------------------------------------- mention legal -------------------------------------*/
+
+.containerMention{
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+.mentionTitle{
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
+.mentionslegales{
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+/*------------------------------------- animation css background --------------------------*/
+
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #7a8932;
+    overflow: hidden;
+}
+
+.background span {
+    width: 16vmin;
+    height: 16vmin;
+    border-radius: 16vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 44;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+    color: #7ee458;
+    top: 25%;
+    left: 79%;
+    animation-duration: 40s;
+    animation-delay: -39s;
+    transform-origin: 20vw 2vh;
+    box-shadow: 32vmin 0 4.4406220798556vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #26581f;
+    top: 28%;
+    left: 59%;
+    animation-duration: 31s;
+    animation-delay: -53s;
+    transform-origin: -6vw -14vh;
+    box-shadow: -32vmin 0 4.617267247273316vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #7ee458;
+    top: 97%;
+    left: 75%;
+    animation-duration: 20s;
+    animation-delay: -48s;
+    transform-origin: 10vw 11vh;
+    box-shadow: 32vmin 0 4.1802371943262795vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #4ea022;
+    top: 51%;
+    left: 96%;
+    animation-duration: 34s;
+    animation-delay: -13s;
+    transform-origin: 4vw -6vh;
+    box-shadow: 32vmin 0 4.318537547700948vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #26581f;
+    top: 41%;
+    left: 51%;
+    animation-duration: 16s;
+    animation-delay: -53s;
+    transform-origin: -24vw 24vh;
+    box-shadow: -32vmin 0 4.084722748571522vmin currentColor;
+}
+.background span:nth-child(5) {
+    color: #7ee458;
+    top: 95%;
+    left: 32%;
+    animation-duration: 58s;
+    animation-delay: -57s;
+    transform-origin: 1vw 22vh;
+    box-shadow: 32vmin 0 4.2766540250910685vmin currentColor;
+}
+.background span:nth-child(6) {
+    color: #26581f;
+    top: 5%;
+    left: 21%;
+    animation-duration: 18s;
+    animation-delay: -50s;
+    transform-origin: -13vw 15vh;
+    box-shadow: -32vmin 0 4.990218885044034vmin currentColor;
+}
+.background span:nth-child(7) {
+    color: #7ee458;
+    top: 6%;
+    left: 19%;
+    animation-duration: 24s;
+    animation-delay: -46s;
+    transform-origin: 12vw 11vh;
+    box-shadow: -32vmin 0 4.0221066140662245vmin currentColor;
+}
+.background span:nth-child(8) {
+    color: #26581f;
+    top: 72%;
+    left: 76%;
+    animation-duration: 11s;
+    animation-delay: -26s;
+    transform-origin: -10vw 10vh;
+    box-shadow: 32vmin 0 4.542033723251565vmin currentColor;
+}
+.background span:nth-child(9) {
+    color: #7ee458;
+    top: 46%;
+    left: 41%;
+    animation-duration: 15s;
+    animation-delay: -41s;
+    transform-origin: -10vw 5vh;
+    box-shadow: 32vmin 0 4.125814556958271vmin currentColor;
+}
+.background span:nth-child(10) {
+    color: #26581f;
+    top: 95%;
+    left: 87%;
+    animation-duration: 10s;
+    animation-delay: -9s;
+    transform-origin: -19vw 1vh;
+    box-shadow: 32vmin 0 4.709920070100946vmin currentColor;
+}
+.background span:nth-child(11) {
+    color: #26581f;
+    top: 15%;
+    left: 10%;
+    animation-duration: 37s;
+    animation-delay: -2s;
+    transform-origin: -17vw -1vh;
+    box-shadow: 32vmin 0 4.267419468048789vmin currentColor;
+}
+.background span:nth-child(12) {
+    color: #26581f;
+    top: 23%;
+    left: 74%;
+    animation-duration: 22s;
+    animation-delay: -33s;
+    transform-origin: -8vw 5vh;
+    box-shadow: 32vmin 0 4.644112753172019vmin currentColor;
+}
+.background span:nth-child(13) {
+    color: #26581f;
+    top: 42%;
+    left: 54%;
+    animation-duration: 36s;
+    animation-delay: -8s;
+    transform-origin: -11vw 15vh;
+    box-shadow: -32vmin 0 4.862953940938346vmin currentColor;
+}
+.background span:nth-child(14) {
+    color: #4ea022;
+    top: 91%;
+    left: 36%;
+    animation-duration: 18s;
+    animation-delay: -35s;
+    transform-origin: -5vw -12vh;
+    box-shadow: -32vmin 0 4.118423850919925vmin currentColor;
+}
+.background span:nth-child(15) {
+    color: #4ea022;
+    top: 81%;
+    left: 5%;
+    animation-duration: 46s;
+    animation-delay: -12s;
+    transform-origin: 10vw 3vh;
+    box-shadow: 32vmin 0 4.010106947414638vmin currentColor;
+}
+.background span:nth-child(16) {
+    color: #26581f;
+    top: 40%;
+    left: 80%;
+    animation-duration: 37s;
+    animation-delay: -33s;
+    transform-origin: -23vw 9vh;
+    box-shadow: -32vmin 0 4.582479505360197vmin currentColor;
+}
+.background span:nth-child(17) {
+    color: #26581f;
+    top: 85%;
+    left: 1%;
+    animation-duration: 63s;
+    animation-delay: -6s;
+    transform-origin: 14vw -1vh;
+    box-shadow: 32vmin 0 4.719000701442735vmin currentColor;
+}
+.background span:nth-child(18) {
+    color: #0a1b04;
+    top: 57%;
+    left: 68%;
+    animation-duration: 64s;
+    animation-delay: -18s;
+    transform-origin: -3vw 9vh;
+    box-shadow: -32vmin 0 4.058671450286742vmin currentColor;
+}
+.background span:nth-child(19) {
+    color: #4ea022;
+    top: 100%;
+    left: 94%;
+    animation-duration: 59s;
+    animation-delay: -37s;
+    transform-origin: -8vw -2vh;
+    box-shadow: -32vmin 0 4.129580021867658vmin currentColor;
+}
+.background span:nth-child(20) {
+    color: #0a1b04;
+    top: 30%;
+    left: 73%;
+    animation-duration: 52s;
+    animation-delay: -32s;
+    transform-origin: 20vw -19vh;
+    box-shadow: 32vmin 0 4.524404464380227vmin currentColor;
+}
+.background span:nth-child(21) {
+    color: #0a1b04;
+    top: 53%;
+    left: 7%;
+    animation-duration: 22s;
+    animation-delay: -30s;
+    transform-origin: -6vw 5vh;
+    box-shadow: 32vmin 0 4.3493542150612114vmin currentColor;
+}
+.background span:nth-child(22) {
+    color: #7ee458;
+    top: 71%;
+    left: 14%;
+    animation-duration: 15s;
+    animation-delay: -57s;
+    transform-origin: -16vw -18vh;
+    box-shadow: -32vmin 0 4.891792871550901vmin currentColor;
+}
+.background span:nth-child(23) {
+    color: #4ea022;
+    top: 35%;
+    left: 19%;
+    animation-duration: 43s;
+    animation-delay: -57s;
+    transform-origin: 9vw -6vh;
+    box-shadow: -32vmin 0 4.782465101681018vmin currentColor;
+}
+.background span:nth-child(24) {
+    color: #26581f;
+    top: 1%;
+    left: 61%;
+    animation-duration: 58s;
+    animation-delay: -57s;
+    transform-origin: -4vw -5vh;
+    box-shadow: 32vmin 0 4.087174547380073vmin currentColor;
+}
